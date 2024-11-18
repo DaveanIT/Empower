@@ -1,0 +1,112 @@
+
+
+.tmp1-container .container {
+    margin-top: 50px;
+}
+
+.tmp1-container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tmp1-container .header h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.tmp1-container .search-container {
+    position: relative;
+}
+
+.tmp1-container .search-container input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.tmp1-container .search-container .search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007bff;
+    font-size: 20px;
+}
+
+/* .autocomplete-suggestions {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: #fff;
+    z-index: 10;
+    border-radius: 4px;
+    display: none;
+} */
+
+.tmp1-container .autocomplete-suggestion {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tmp1-container .autocomplete-suggestion:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.tmp1-container .table-container {
+    margin-top: 30px;
+    position: relative;
+}
+
+.tmp1-container .background-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.1;
+}
+
+.tmp1-container .table {
+    z-index: 1;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tmp1-container .table th, .table td {
+    text-align: center;
+    padding: 15px;
+}
+
+.tmp1-container .table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.tmp1-container .home-icon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: #007bff;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tmp1-container .home-icon:hover {
+    background-color: #007bff;
+    color: white;
+}

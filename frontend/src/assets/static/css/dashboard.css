@@ -1,0 +1,46 @@
+
+/* Set a max-width for the container to simulate mobile width on desktop */
+.dashboard-div .container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.dashboard-div h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.dashboard-div .admin {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-div .logout-icon {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.dashboard-div .card-header {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .20rem 1.25rem;
+}
+
+.dashboard-div .table td {
+    font-size: 0.9rem;
+    color: #333;
+    padding: 0 .4rem 0 .4rem;
+}
+
+.dashboard-div .table td.text-right {
+    font-weight: bold;
+}
+
+.dashboard-div footer {
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    color: #666;
+}
+.dashboard-div .hhd{
+    padding: .20rem .2rem;
+}

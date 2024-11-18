@@ -1,0 +1,27 @@
+.branch-div .chip {
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%; /* Full width for mobile by default */
+    text-align: center;
+}
+
+.branch-div .chip:hover {
+    background-color: #e9ecef;
+}
+
+.branch-div .chip.selected {
+    background-color: #e0f7fa;
+    border-color: #17a2b8;
+    color: #17a2b8;
+}
+
+/* Ensure chips are not too wide on larger screens */
+@media (min-width: 768px) {
+    .branch-div .chip {
+        width: 50%; /* Full width for mobile by default */
+        text-align: center;
+    }
+}
